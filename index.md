@@ -1,0 +1,3 @@
+- [CS-360 Mobile App Artifact](artifacts/CS-360/)
+- [CS-340 CRUD Artifact](artifacts/CS-340/)
+- [CS-370 AI Artifact](artifacts/CS-370/)
