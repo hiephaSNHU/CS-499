@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- ✅ Declare SMS Permission -->
+    <!-- Declare SMS Permission -->
     <uses-feature
         android:name="android.hardware.telephony"
         android:required="false" />
@@ -18,7 +18,7 @@
         android:theme="@style/Theme.Inventory"
         >
 
-        <!-- ✅ MainActivity (Login & Register Screen) -->
+        <!-- MainActivity (Login & Register Screen) -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -28,16 +28,20 @@
             </intent-filter>
         </activity>
 
-        <!-- ✅ Database Display Activity (Show Inventory) -->
+        <!-- Database Display Activity (Show Inventory) -->
         <activity
             android:name=".DatabaseDisplayActivity"
             android:exported="false" />
 
-        <!-- ✅ Add Inventory Activity (Add Items) -->
+        <!-- Add Inventory Activity (Add Items) -->
         <activity
             android:name=".AddInventoryActivity"
             android:exported="false" />
 
+        <activity
+            android:name=".ui.SettingsActivity"
+            android:exported="false"
+            android:label="Settings" />
     </application>
 
 </manifest>
