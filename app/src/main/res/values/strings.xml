@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Inventory</string>
+    <string name="inventory_items">Inventory Items:</string>
+    <string name="no_inventory_items_available">No inventory items available</string>
+    <string name="item_name">Item Name</string>
+    <string name="quantity">Quantity</string>
+    <string name="add_item">Add Item</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="add_new_item">Add New Item</string>
+</resources>
