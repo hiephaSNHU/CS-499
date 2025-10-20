@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Hiep Ha — CS 499 ePortfolio</title>
 
   <!-- Bootstrap 5 CSS -->
-  <link 
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
-    rel="stylesheet"
-  >
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
 
   <style>
+    html { scroll-behavior: smooth; }
     body {
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       background-color: #f8f9fa;
@@ -30,15 +28,10 @@
       padding: 1rem 0;
       margin-top: 3rem;
     }
-    h1, h2 {
-      color: #0d6efd;
-    }
-    nav a.nav-link {
-      color: white !important;
-    }
-    nav a.nav-link:hover {
-      text-decoration: underline;
-    }
+    h1, h2 { color: #0d6efd; }
+    nav a.nav-link { color: white !important; }
+    nav a.nav-link:hover { text-decoration: underline; }
+    .card h3 { color: #0d6efd; }
   </style>
 </head>
 
@@ -149,17 +142,77 @@
     </p>
   </section>
 
-  <!-- Placeholder Sections for Links -->
+  <!-- Artifacts Section -->
   <section id="artifacts" class="container my-5">
-    <h2>Artifacts</h2>
-    <p>.</p>
+    <h2 class="mb-4">Artifacts</h2>
+
+    <!-- Software Design and Engineering -->
+    <div class="card mb-4">
+      <div class="card-body">
+        <h3>Software Design and Engineering</h3>
+        <p>
+          I redesigned the Inventory App layout with RecyclerView, added a Settings screen,
+          and improved input checks. This made the app easier to use and more stable.
+        </p>
+        <div class="d-flex flex-wrap gap-2">
+          <a class="btn btn-primary" target="_blank" href="https://github.com/hiephaSNHU/CS-499/tree/main/milestone/m2">View code and files</a>
+          <a class="btn btn-outline-primary" target="_blank" href="https://github.com/hiephaSNHU/CS-499/tree/main/milestone/original">Original version</a>
+          <a class="btn btn-outline-secondary" target="_blank" href="https://github.com/hiephaSNHU/CS-499/tree/main/milestone/m2">Narrative (Milestone Two)</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Algorithms and Data Structures -->
+    <div class="card mb-4">
+      <div class="card-body">
+        <h3>Algorithms and Data Structures</h3>
+        <p>
+          I added caching, batch insert and update, DiffUtil, and indexed queries.
+          These changes improved speed and responsiveness with large data sets.
+        </p>
+        <div class="d-flex flex-wrap gap-2">
+          <a class="btn btn-primary" target="_blank" href="https://github.com/hiephaSNHU/CS-499/tree/main/milestone/m3">View code and files</a>
+          <a class="btn btn-outline-secondary" target="_blank" href="https://github.com/hiephaSNHU/CS-499/tree/main/milestone/m3">Narrative (Milestone Three)</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Databases -->
+    <div class="card mb-4">
+      <div class="card-body">
+        <h3>Databases</h3>
+        <p>
+          I added a transactions table and SQL triggers for change history,
+          built a history view, and improved CSV export to the Downloads folder.
+        </p>
+        <div class="d-flex flex-wrap gap-2">
+          <a class="btn btn-primary" target="_blank" href="https://github.com/hiephaSNHU/CS-499/tree/main/milestone/m4">View code and files</a>
+          <a class="btn btn-outline-secondary" target="_blank" href="https://github.com/hiephaSNHU/CS-499/tree/main/milestone/m4">Narrative (Milestone Four)</a>
+        </div>
+      </div>
+    </div>
   </section>
 
+  <!-- Code Review Section -->
   <section id="code-review" class="container my-5">
-    <h2>Code Review</h2>
-    <p>My Video.</p>
+    <h2 class="mb-3">Code Review</h2>
+    <p class="mb-3">
+      This video walks through the original app, explains problems found, and shows the plan for all enhancements.
+    </p>
+
+    <!-- Replace the src with YouTube video link -->
+    <div class="ratio ratio-16x9 mb-3">
+      <iframe
+        src="https://www.youtube.com/embed/VIDEO_ID_HERE"
+        title="Code Review Video"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <a class="btn btn-primary" target="_blank" href="">Open video in new tab</a>
   </section>
 
+  <!-- Contact Section -->
   <section id="contact" class="container my-5">
     <h2>Contact</h2>
     <p>Email: <a href="mailto:hiepha1@snhu.edu">hiepha1@snhu.edu</a></p>
@@ -171,8 +224,6 @@
   </footer>
 
   <!-- Bootstrap JS -->
-  <script 
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
-  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
