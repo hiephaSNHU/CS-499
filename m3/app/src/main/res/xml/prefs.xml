@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference
+        android:key="alert_phone"
+        android:title="@string/pref_alert_phone"
+        app:useSimpleSummaryProvider="true" />
+
+    <EditTextPreference
+        android:key="low_stock_threshold"
+        android:title="@string/pref_low_stock_threshold"
+        android:defaultValue="5"
+        app:useSimpleSummaryProvider="true" />
+
+</PreferenceScreen>
